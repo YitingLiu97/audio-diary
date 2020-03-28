@@ -118,7 +118,7 @@ function draw() {
 }
 
 let timer = 60; //60 seconds as the timer 
-let delayTimer = 6;
+let delayTimer = 3;
 
 let mode = "instruction";
 
