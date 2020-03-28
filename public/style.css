@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+canvas {
+  display: inline-block;
+  position: static;
+}
+
+body {
+  display: inline-block;
+
+  margin: 10vw;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 20s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #C5A3FF
+  }
+  30% {
+    background-color: #B5B9FF
+  }
+  60% {
+    background-color: #C4FAF8
+  }
+  90% {
+    background-color: #85E3FF
+  }
+  100% {
+    background-color: #DBFFD6
+  }
+}
+
+header {
+  margin-top: 2vh;
+
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.documentation h2,h3,.flow{
+  margin: 0 10vw 2vw 10vw;
+  text-align: left;
+}
+.flow li{
+  /* list-style: none; */
+  margin: 1vw 0 1vw 3vw;
+}
+nav ul{
+  /* position: sticky; */
+  margin: 2vw 10vw 2vw 10vw;
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: row nowrap; */
+  text-align: right;
+  justify-content: flex-end;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+}
+
+nav li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0.5% 0;
+}
+
+#logo {
+  height: 15vh;
+  width: auto;
+  animation-name: logoanimation;
+  animation-duration: 3s;
+}
+
+@keyframes logoanimation {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  font-weight: regular;
+  letter-spacing: initial;
+  line-height: 3.3vh;
+  text-align: left;
+  margin: 4vw 10vw;
+}
+
+a:link{
+  color:#FFBEBC;
+  text-decoration: none;
+  
+}
+
+a:hover{
+color: #C5A3FF;
+
+}
+
+a:visited{
+  color: rgb(111, 32, 201);
+}
+
+#footer{
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  /* text-align: center; */
+
+}
+
+/* @media only screen and (min-width:800px){
+
+
+} */
