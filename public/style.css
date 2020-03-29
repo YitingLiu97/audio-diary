@@ -144,12 +144,12 @@ footer {
 input{
   height: 20px;
   width: 50vw;
-  box-shadow: none;
+  /* box-shadow: none; */
   /* background-color: transparent; */
   /* color:purple; */
   /* border-bottom: black; */
 border-style: none;
-border-bottom: black;
+border-bottom: 2px solid gray;
  -webkit-animation: bgcolor 20s infinite;
   animation: bgcolor 20s infinite;
   /* background-color: lightgoldenrodyellow; */
