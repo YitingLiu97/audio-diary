@@ -149,6 +149,7 @@ input{
   /* color:purple; */
   /* border-bottom: black; */
 border-style: none;
+border-bottom: black;
  -webkit-animation: bgcolor 20s infinite;
   animation: bgcolor 20s infinite;
   /* background-color: lightgoldenrodyellow; */
