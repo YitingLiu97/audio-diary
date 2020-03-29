@@ -3,7 +3,10 @@
 <!-- A one sentence description of the project or assignment -->
 The Audio Diary is a website that allows people to express their feelings. The website converts the speech into visual representation with geometric shapes following the pastel color palette. [You can try it here.](https://yitingliu97-audio-diary.glitch.me/)
 
-![Logo](assets/)
+![Demo1](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo1.jpg)
+
+![Demo2](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo2.jpg)
+
 
 <!-- It is good practice to add an about or summary -->
 ## About
@@ -74,10 +77,19 @@ I built this website using p5.js and p5.speech.js. I first started with p5 web e
 <!-- How you built this project - Include images, gifs, and notes here -->
 ## Process & Documentation
 I started with using typing rather than registering audio through p5 speech since I thought it would be easier to have the whole structure. I was wrong. 
+
 It is quite different working with keys and audio texts. 
 I did work with keyTyped and keyPressed functions, but when I wanted to try to type keys through input tag in the html, it didn't work. Only when I comment the keyTyped section, I can type text in the input box. 
+
+[trying to add inputs](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20to%20add%20input%20.png)
+
 Therefore, I used p5 speech library to recognize the spoken words and convert them into texts. I split the speech content into words and found the end letter to each word to assign the color of the shapes.
-I wanted to add more layers therefore, I edited background color which changes according to the number of letters in one sentence. I also added four fonts to display the sentence depending on the mouse position. 
+
+[getting speech result in code and display](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/speech%20testing.png)
+
+I wanted to add more layers therefore, I edited background color which changes according to the number of letters in one sentence. I also added four fonts to display the sentence depending on the mouse position. I also played with different shapes as below.
+
+[playing with different shapes. triangle shapes on a pink background with code](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20different%20shapes%20location%20wise.png)
 
 <!-- Any specific challenges or struggles documented -->
 ## Challenges & Struggles
