@@ -144,16 +144,15 @@ footer {
 input{
   height: 30px;
   width: 50vw;
-  background-color: lightgoldenrodyellow;
-  color: #C5A3FF;
-  /* transition: width 0.4s ease-in-out;  */
- /* -webkit-animation: color 20s infinite;
-  animation: color 20s infinite; */
+  background-color: transparent;
+  /* color:purple; */
+  border-bottom: black;
+  transition: width 0.4s ease-in-out; 
+ -webkit-animation: color 20s infinite;
+  animation: color 20s infinite;
   /* background-color: lightgoldenrodyellow; */
   /* opacity: 20%; */
   /* border-style: none; */
-
-
 
 }
 /* 
