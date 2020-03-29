@@ -95,11 +95,12 @@ I wanted to add more layers therefore, I edited background color which changes a
 ## Challenges & Struggles
 Ideally, I would want each circle to have one color rather than a group of circle bearing the same color. I am still trying to figure out how to make it happen. 
 
-
 <!-- Any questions you have -->
 ## Questions
 1. How to make sure the mobile users can play with it?
 2. How to make each circle generated to bear different colors rather than randomly assigned?
+3. Why the CSS effect of my #textbox does not show in my localhost? It shows in the p5 web editor.
+4. How come some browsers do not support the microphone input? How to make sure it is solved? How to allow mobile users to play on the phone?
 
 ## Next Step
 I am making other websites in the meantime to respond to hard times like the current pandemic of COVID-19. Hopefully, I will build a collection of these interactive websites together to alleviate the stress.

@@ -19,7 +19,24 @@ body {
   animation: bgcolor 20s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+}
 
+@keyframes color {
+  0% {
+    color: #C5A3FF
+  }
+  30% {
+    color: #B5B9FF
+  }
+  60% {
+    color: #C4FAF8
+  }
+  90% {
+    color: #85E3FF
+  }
+  100% {
+    color: #DBFFD6
+  }
 }
 
 @keyframes bgcolor {
@@ -44,7 +61,6 @@ header {
   margin-top: 2vh;
   color: white;
   margin-bottom: 2vh;
-
 }
 
 h1 {
@@ -52,15 +68,17 @@ h1 {
   margin-bottom: 1%;
 }
 
-.documentation h2,h3,.flow{
+.documentation h2, h3, .flow {
   margin: 0 10vw 2vw 10vw;
   text-align: left;
 }
-.flow li{
+
+.flow li {
   /* list-style: none; */
   margin: 1vw 0 1vw 3vw;
 }
-nav ul{
+
+nav ul {
   /* position: sticky; */
   margin: 2vw 10vw 2vw 10vw;
   display: flex;
@@ -104,36 +122,60 @@ p {
   margin: 4vw 10vw;
 }
 
-a:link{
-  color:#FFBEBC;
+a:link {
+  color: lightgoldenrodyellow;
   text-decoration: none;
-  
 }
 
-a:hover{
-color: #C5A3FF;
-
+a:hover {
+  color: #C5A3FF;
 }
 
-a:visited{
+a:visited {
   color: rgb(111, 32, 201);
 }
-footer{
- 
+
+footer {
   text-align: center;
   color: white;
-
 }
 
-@media only screen and (min-width:800px){
 
-p{
-  margin: 2vw 20vw;
+input{
+  position: relative;
+  border-style: dashed;
+
+
+
 
 }
+/* 
+#textbox{
+  border: none;
+  background-color: black;
+  color: red;
+} */
+/* input:enabled {
+  background-color: #C5A3FF;
+  border-style: none;
+  opacity: 40%;
+  transition: width 0.4s ease-in-out */
 
-.documentation h2,h3,.flow{
-  margin: 0 20vw 2vw 20vw;
-  text-align: left;
-}
+  /* display: flex;
+  size: 200px;
+  width: 100%;
+  height: 2vh; */
+  /* -webkit-animation: color 20s infinite;
+  animation: color 20s infinite; */
+/* } */
+
+
+@media only screen and (min-width:800px) {
+  p {
+    margin: 2vw 20vw;
+  }
+  .documentation h2, h3, .flow {
+    margin: 0 20vw 2vw 20vw;
+    text-align: left;
+  }
 }
