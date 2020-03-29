@@ -55,10 +55,7 @@ function setup() {
     createCanvas(windowWidth * 0.9, windowHeight * 0.9);
     input = createInput();
     input.id('textbox');
-    input.placeholder="Type Something."
-
-
-
+    input.attribute('placeholder','Type Something');
 }
 
 let userWords;
