@@ -142,10 +142,13 @@ footer {
 
 
 input{
-  position: relative;
-  border-style: dashed;
-
-
+  height: 30px;
+  width: 50vw;
+  transition: width 0.4s ease-in-out; 
+ -webkit-animation: color 20s infinite;
+  animation: color 20s infinite;
+  background-color: lightgoldenrodyellow;
+  opacity: 20%;
 
 
 }
@@ -159,14 +162,12 @@ input{
   background-color: #C5A3FF;
   border-style: none;
   opacity: 40%;
-  transition: width 0.4s ease-in-out */
 
   /* display: flex;
   size: 200px;
   width: 100%;
   height: 2vh; */
-  /* -webkit-animation: color 20s infinite;
-  animation: color 20s infinite; */
+ 
 /* } */
 
 
