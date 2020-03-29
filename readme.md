@@ -5,7 +5,7 @@ The Audio Diary is a website that allows people to express their feelings. The w
 
 ![Demo1](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo1.jpg)
 
-![Demo2](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo2.jpg)
+![Demo3](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo3.jpg)
 
 
 <!-- It is good practice to add an about or summary -->
@@ -58,7 +58,7 @@ This project is hosted on Github and deployed on Glitch.
 
 ## Author
 
-* [Yiting Liu](http://yitingliu97.wordpress.com/) --  -- [NYU ITP](https://itp.nyu.edu)
+* [Yiting Liu](http://yitingliu97.wordpress.com/) -- NYU ITP 2020 -- [NYU ITP](https://itp.nyu.edu)
 
 <!-- 
 ## Code of Conduct
@@ -81,15 +81,15 @@ I started with using typing rather than registering audio through p5 speech sinc
 It is quite different working with keys and audio texts. 
 I did work with keyTyped and keyPressed functions, but when I wanted to try to type keys through input tag in the html, it didn't work. Only when I comment the keyTyped section, I can type text in the input box. 
 
-[trying to add inputs](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20to%20add%20input%20.png)
+![trying to add inputs](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20to%20add%20input%20.png)
 
 Therefore, I used p5 speech library to recognize the spoken words and convert them into texts. I split the speech content into words and found the end letter to each word to assign the color of the shapes.
 
-[getting speech result in code and display](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/speech%20testing.png)
+![getting speech result in code and display](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/speech%20testing.png)
 
 I wanted to add more layers therefore, I edited background color which changes according to the number of letters in one sentence. I also added four fonts to display the sentence depending on the mouse position. I also played with different shapes as below.
 
-[playing with different shapes. triangle shapes on a pink background with code](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20different%20shapes%20location%20wise.png)
+![playing with different shapes. triangle shapes on a pink background with code](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/trying%20different%20shapes%20location%20wise.png)
 
 <!-- Any specific challenges or struggles documented -->
 ## Challenges & Struggles
