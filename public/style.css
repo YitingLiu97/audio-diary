@@ -147,8 +147,10 @@ input{
   transition: width 0.4s ease-in-out; 
  -webkit-animation: color 20s infinite;
   animation: color 20s infinite;
-  background-color: lightgoldenrodyellow;
-  opacity: 20%;
+  /* background-color: lightgoldenrodyellow; */
+  /* opacity: 20%; */
+  border-style: none;
+
 
 
 }
