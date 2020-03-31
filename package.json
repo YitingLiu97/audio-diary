@@ -1,0 +1,23 @@
+{
+  "name": "audio-diary-2020-copy",
+  "version": "1.0.0",
+  "description": "<!-- Every README should start with an H1 --> # The Audio Diary Project  <!-- A one sentence description of the project or assignment --> The Audio Diary is a website that allows people to express their feelings. The website converts the speech into visual representation with geometric shapes following the pastel color palette. [You can try it here.](https://yitingliu97-audio-diary.glitch.me/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YitingLiu97/audio-diary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YitingLiu97/audio-diary/issues"
+  },
+  "homepage": "https://github.com/YitingLiu97/audio-diary#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
