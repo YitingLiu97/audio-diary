@@ -101,12 +101,31 @@ Ideally, I would want each circle to have one color rather than a group of circl
 2. How to make each circle generated to bear different colors rather than randomly assigned?
 3. Why the CSS effect of my #textbox does not show in my localhost? It shows in the p5 web editor.
 4. How come some browsers do not support the microphone input? How to make sure it is solved? How to allow mobile users to play on the phone?
+5. How can I deploy to Heroku? Do I have to have server.js and node to do so?
+
+## Questions that were solved
+1. I don't need to have a server.js to delopy to Heroku. The simplest way to deploy to Heroku is using 
+
+```sh
+npm init
+```
+and then we have to install http-sever
+```sh
+npm install --save http-sever
+```
+
+and then in the package.json file, under "scripts", add the following line:
+```sh
+    "start": "http-server ./ -p $PORT"
+```
+And it worked! It was successfully deployed to Heroku and you can play it [here](https://audio-diary.herokuapp.com/).
+
+2.  Glitch trys to find index.html by defalt. So if I were to create a folder of the html files, I can put index.html out and have it as the root of the folders of  other html files. Or Cassie has also mentioned of using Github pages which require special repo and add a custom domain of the website. 
+
+3. During the office hour with Cassie, the p5 speech library I used in the website only supports browers: Chrome and Edge, mobile phones: Chrome for Android and Android webview. However, when I tried to open the web page on my Google Pixel through Chorme, it still didn't work. So I guess this is the end of me trying to satisfy users through all platforms. [reference here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
 ## Next Step
 I am making other websites in the meantime to respond to hard times like the current pandemic of COVID-19. Hopefully, I will build a collection of these interactive websites together to alleviate the stress.
-
-
-
 
 <!-- References for resources and inspiration -->
 ## References
