@@ -1,7 +1,7 @@
 <!-- Every README should start with an H1 -->
 # The Audio Diary Project 
 <!-- A one sentence description of the project or assignment -->
-The Audio Diary is a website that allows people to express their feelings. The website converts the speech into visual representation with geometric shapes following the pastel color palette. [You can try it here.](https://yitingliu97-audio-diary.glitch.me/)
+The Audio Diary is a website that allows people to express their feelings. The website converts the speech into visual representation with geometric shapes following the pastel color palette. [You can try it here.](https://audio-diary.herokuapp.com/)
 
 ![Demo1](https://github.com/YitingLiu97/audio-diary/blob/master/assets/docs/demo1.jpg)
 
