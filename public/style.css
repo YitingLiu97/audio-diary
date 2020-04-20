@@ -4,10 +4,10 @@
   font-family: 'Libre Baskerville', serif;
 }
 
-canvas {
+/* canvas {
   display: inline-block;
   position: static;
-}
+} */
 
 body {
   display: inline-block;
@@ -57,15 +57,23 @@ body {
   }
 }
 
-header {
-  margin-top: 2vh;
-  color: white;
-  margin-bottom: 2vh;
+footer {
+  padding: 2px 0;
+  font-size: small;
+  width: 100%;
+  margin: auto;
+  color: black;
+  position: fixed;
+  background-color: white;
 }
 
 h1 {
   font-weight: bold;
   margin-bottom: 1%;
+}
+
+p {
+  margin: auto;
 }
 
 .documentation h2, h3, .flow {
@@ -115,9 +123,6 @@ nav li {
 }
 
 p {
-  font-weight: regular;
-  letter-spacing: initial;
-  line-height: 3.3vh;
   text-align: left;
   margin: 4vw 10vw;
 }
@@ -135,45 +140,27 @@ a:visited {
   color: rgb(111, 32, 201);
 }
 
-footer {
+header {
   text-align: center;
-  color: white;
+  color: black;
+  background-color: white;
+  padding: 10px 0;
+  font-size: small;
 }
 
 
-input{
-  height: 20px;
+input {
+  height: 30px;
   width: 50vw;
-  /* box-shadow: none; */
-  /* background-color: transparent; */
-  /* color:purple; */
-  /* border-bottom: black; */
-border-style: none;
-border-bottom: 2px solid gray;
- -webkit-animation: bgcolor 20s infinite;
-  animation: bgcolor 20s infinite;
-  /* background-color: lightgoldenrodyellow; */
-  /* opacity: 20%; */
-  /* border-style: none; */
-
-}
-/* 
-#textbox{
-  border: none;
-  background-color: black;
-  color: red;
-} */
-/* input:enabled {
-  background-color: #C5A3FF;
+  width: 70%;
   border-style: none;
-  opacity: 40%;
-
-  /* display: flex;
-  size: 200px;
-  width: 100%;
-  height: 2vh; */
- 
-/* } */
+  border-bottom: 2pt double gray;
+  background-color: transparent;
+  color: white;
+  /* -webkit-animation: bgcolor 20s infinite; */
+  /* animation: bgcolor 20s infinite; */
+  font-size: medium;
+}
 
 
 @media only screen and (min-width:800px) {

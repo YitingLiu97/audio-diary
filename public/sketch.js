@@ -58,9 +58,11 @@ function changeFontfromMouse() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
-
+let cnv;
 function setup() {
-  createCanvas(windowWidth * 0.9, windowHeight * 0.9);
+  cnv=createCanvas(windowWidth * 0.9, windowHeight * 0.9);
+  cnv.parent('sketch-holder');
+  // cnv.style('display','block');
   myRec.start();
   myRec.onResult = showResult; // bind callback function to trigger when speech is recognized
 

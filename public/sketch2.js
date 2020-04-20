@@ -51,11 +51,14 @@ function windowResized() {
 
 let input;
 
+let cnv2;
 function setup() {
-    createCanvas(windowWidth * 0.9, windowHeight * 0.9);
+   cnv2= createCanvas(windowWidth * 0.9, windowHeight * 0.8);
+   cnv2.parent('sketch-holder-2');
     input = createInput();
     input.id('textbox');
     input.attribute('placeholder','Type Something');
+    input.parent('sketch-holder-2-input');
 }
 
 let userWords;
